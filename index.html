@@ -7,6 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<title>TMSP</title>
 	<link rel="stylesheet" href="main.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- bootstrap-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -71,11 +72,15 @@
 		<!-- search e calendário -->
 
 		<form>
-			<div class="d-flex justify-content-center my-3">
-				<input class="form-control mx-3 w-25" type="search" placeholder="Search" aria-label="Search" />
-				<button class="btn btn-danger mx-5" type="submit">
-					Calendário
-				</button>
+			<div class="container d-flex justify-content-center my-5">
+				<div class="row">
+					<input class="form-control vw-50" type="search"
+						placeholder="Search" aria-label="Search" />
+					<button class="btn btn-danger vw-50 my-2 mx-lg-5" type="submit">
+						Calendário
+					</button>
+				</div>
+
 			</div>
 		</form>
 
@@ -124,12 +129,12 @@
 
 	<section>
 
-		<div class="container d-flex flex-row my-5 py-5">
+		<div class="container d-flex flex-row my-5 pt-5">
 			<h3 class="mx-5">Próximos eventos</h3>
 			<button class="btn btn-danger btn-sm mx-5 ms-auto">Ver Programação Completa</button>
 		</div>
 
-		<div class="container py-5">
+		<div class="container py-5 overflow-auto">
 
 			<div class="row d-flex justify-content-center gx-0 my-4">
 
@@ -206,7 +211,7 @@
 
 	<section>
 
-		<div class="container d-flex flex-row my-5 py-5">
+		<div class="container d-flex flex-row my-5 pt-5">
 			<h3 class="mx-5">Notícias</h3>
 			<button class="btn btn-danger btn-sm mx-5 ms-auto">Ver Mais</button>
 		</div>
@@ -245,19 +250,23 @@
 
 		<div class="container-fluid d-flex justify-content-center my-5 py-5">
 
-			<div class="col-6">
-				<div class="card mx-auto my-4" style="width: 25rem;">
-					<div class="card-title">Visita Educativa</div>
-					<img src="./images/banner1.png" class="card-img-bottom" alt="...">
-				</div>
-
-				<div class="card mx-auto my-4" style="width: 25rem;">
-					<div class="card-title">Visita Educativa</div>
-					<img src="./images/banner1.png" class="card-img-bottom" alt="...">
+			<div class="row flex-column">
+				<div class="col-lg-6">
+					<div class="card my-4" style="width: 20rem;">
+						<div class="card-title">Visita Educativa</div>
+						<img src="./images/banner1.png" class="card-img-bottom" alt="...">
+					</div>
+	
+					<div class="card my-4" style="width: 20rem;">
+						<div class="card-title">Visita Educativa</div>
+						<img src="./images/banner1.png" class="card-img-bottom" alt="...">
+					</div>
 				</div>
 			</div>
+			
 
-			<div class="col-6 mx-auto">
+			<div class="row flex-column"></div>
+			<div class="col-lg-6 mx-auto">
 				<img src="./images/banner1.png" class="card-img-bottom" alt="...">
 			</div>
 
@@ -271,97 +280,96 @@
 		<div style="background-color: #EE5050; color: #ffff;">
 
 			<div class="container d-flex justify-content-center py-5 my-5">
-				<div>
-					<ul id="footertLinksUteis" class="col-4 mx-3 whiteText">
-						<li><a href="#">Imprensa</a></li>
-						<li><a href="#">Trabalhe Conosco</a></li>
-						<li><a href="#">Cadastro de Fornecedores</a></li>
-						<li><a href="#">Transparência</a></li>
-						<li><a href="#">Perguntas Frequentes</a></li>
-						<li><a href="#">Apoie</a></li>
-					</ul>
+				<div class="row">
+					<div>
+						<ul id="footertLinksUteis" class="col-lg-4 mx-3 whiteText">
+							<li><a href="#">Imprensa</a></li>
+							<li><a href="#">Trabalhe Conosco</a></li>
+							<li><a href="#">Cadastro de Fornecedores</a></li>
+							<li><a href="#">Transparência</a></li>
+							<li><a href="#">Perguntas Frequentes</a></li>
+							<li><a href="#">Apoie</a></li>
+						</ul>
+					</div>
+	
+					<!-- FIM MENU DE RODAPÉ -->
+	
+					<div id="footertEnderecos" class="container col-lg-4 d-md-flex py-5 ">
+						<div class="col-lg-6 mx-4">
+							<h4>Theatro Municipal</h4>
+							<p>
+								Praça Ramos de Azevedo, s/nº
+								<br>
+								Sé - São Paulo
+							</p>
+							<p>
+								Telefone
+								<br>
+								+55 (11) 3053-2080
+							</p>
+							<p>
+								Atendimento presencial
+								<br>
+								Segunda a sexta, das 10h às 19h
+								<br>
+								Sábado, domingo e feriado, das 10h às 17h
+							</p>
+	
+							<a href="#">Como Chegar</a>
+						</div>
+	
+						<div class="col-lg-6 mx-4 pt-5">
+							<h4>Praça das Artes</h4>
+							<p>
+								Avenida São João, 281
+								<br>
+								Sé - São Paulo
+							</p>
+							<p>
+								Telefone
+								<br>
+								+55 (11) 3053-2110
+							</p>
+							<p>
+								Atendimento presencial
+								<br>
+								Das 7h às 9h
+							</p>
+	
+							<a href="#">Como Chegar</a>
+						</div>
+					</div>
+	
+					<div id="footertAcompanheNovidades" class="col-lg-4 whiteText">
+						<h4>Acompanhe as novidades</h4>
+	
+						<div class="my-4">
+							<h6>Redes Sociais Theatro Municipal</h6>
+							<a href="#">Facebook</a>
+							<a href="#">Youtube</a>
+							<a href="#">Twitter</a>
+							<a href="#">Instagram</a>
+						</div>
+	
+						<div class="my-4">
+							<h6>Redes Sociais Praças das Artes</h6>
+							<a href="#">Facebook</a>
+							<a href="#">Youtube</a>
+							<a href="#">Twitter</a>
+							<a href="#">Instagram</a>
+						</div>
+	
+						<div class="my-4">
+							<h6>Podcast Theatro Municipal</h6>
+							<a href="#">Facebook</a>
+							<a href="#">Youtube</a>
+							<a href="#">Twitter</a>
+							<a href="#">Instagram</a>
+						</div>
+					</div>
+
 				</div>
-
-				<!-- FIM MENU DE RODAPÉ -->
-
-				<div>
-
-
-				</div>
-
-				<div id="footertEnderecos" class="container d-flex mx-5" class="col-4">
-					<div class="col-6 mx-4">
-						<h4>Theatro Municipal</h4>
-						<p>
-							Praça Ramos de Azevedo, s/nº
-							<br>
-							Sé - São Paulo
-						</p>
-						<p>
-							Telefone
-							<br>
-							+55 (11) 3053-2080
-						</p>
-						<p>
-							Atendimento presencial
-							<br>
-							Segunda a sexta, das 10h às 19h
-							<br>
-							Sábado, domingo e feriado, das 10h às 17h
-						</p>
-
-						<a href="#">Como Chegar</a>
-					</div>
-
-					<div class="col-6 mx-4">
-						<h4>Praça das Artes</h4>
-						<p>
-							Avenida São João, 281
-							<br>
-							Sé - São Paulo
-						</p>
-						<p>
-							Telefone
-							<br>
-							+55 (11) 3053-2110
-						</p>
-						<p>
-							Atendimento presencial
-							<br>
-							Das 7h às 9h
-						</p>
-
-						<a href="#">Como Chegar</a>
-					</div>
-				</div>
-
-				<div id="footertAcompanheNovidades" class="col-4 whiteText">
-					<h4>Acompanhe as novidades</h4>
-
-					<div class="my-4">
-						<h6>Redes Sociais Theatro Municipal</h6>
-						<a href="#">Facebook</a>
-						<a href="#">Youtube</a>
-						<a href="#">Twitter</a>
-						<a href="#">Instagram</a>
-					</div>
-
-					<div class="my-4">
-						<h6>Redes Sociais Praças das Artes</h6>
-						<a href="#">Facebook</a>
-						<a href="#">Youtube</a>
-						<a href="#">Twitter</a>
-						<a href="#">Instagram</a>
-					</div>
-
-					<div class="my-4">
-						<h6>Podcast Theatro Municipal</h6>
-						<a href="#">Facebook</a>
-						<a href="#">Youtube</a>
-						<a href="#">Twitter</a>
-						<a href="#">Instagram</a>
-					</div>
-				</div>
+				
 
 			</div>
 
@@ -376,22 +384,22 @@
 			<div class="row justify-content-center">
 				<h2>Realização</h2>
 			</div>
-			
 
-			<div class="d-flex justify-content-center p-4">
+
+			<div class="d-flex flex-column justify-content-center p-4">
 				<img src="./images/logo-estado-sp.png" alt="" class="mx-5">
 				<img src="./images/logo-estado-sp.png" alt="" class="mx-5">
 				<img src="./images/logo-estado-sp.png" alt="" class="mx-5">
 				<img src="./images/logo-estado-sp.png" alt="" class="mx-5">
 			</div>
-			<div class="d-flex justify-content-center p-4">
+			<div class="d-flex flex-column justify-content-center p-4">
 				<img src="./images/logo-estado-sp.png" alt="" class="mx-5">
 				<img src="./images/logo-estado-sp.png" alt="" class="mx-5">
 				<img src="./images/logo-estado-sp.png" alt="" class="mx-5">
 				<img src="./images/logo-estado-sp.png" alt="" class="mx-5">
 			</div>
-			
-			
+
+
 		</div>
 	</section>
 

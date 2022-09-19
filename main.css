@@ -10,3 +10,8 @@ a{
     width: 10rem;
     height: 10rem;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+}
