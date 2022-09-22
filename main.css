@@ -91,8 +91,13 @@ a {
     border: none;
 }
 
+#cardNoticias .card .card-text {
+    text-align: justify;
+}
+
 #cardNoticias .card .card-footer {
     background-color: #dc3545;
+    border: none;
 }
 
 #maisInformacoes .card {
