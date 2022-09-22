@@ -15,6 +15,12 @@ a {
 }
 
 @media only screen and (min-width: 576px) {
+
+    .sectionTitle {
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+    }
+
     #proximosEventos .card {
         min-height: 350px !important;
     }
@@ -25,17 +31,36 @@ a {
     min-width: 250px !important;
 }
 
+.card-body img {
+    margin-right: 0.5rem;
+}
+
+/* - igual ao site anterior -
+
+.card-body span {
+    padding: 0.2rem 0.5rem;
+    border: 1px solid rgba(0, 0, 0, .5);
+    border-radius: 2rem;
+}
+
+:root .card-footer {
+    --bs-card-cap-padding-y: 0rem;
+    --bs-card-cap-padding-x: 0rem;
+}
+
+:root .card-footer .btn {
+    --bs-btn-border-radius: 0.375rem 0rem 0rem 0rem;
+}
+
+*/
+
+
 .card-footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
     background: none !important;
     border: none !important;
 }
 
-:root {
-    --bs-card-cap-padding: 0.5rem !important;
-}
+
 
 .whiteText a {
     color: white !important;
