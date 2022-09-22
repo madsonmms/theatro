@@ -95,6 +95,25 @@ section #sectionNoticias {
     min-height: 200px !important;
 }
 
+:root a {
+    --bs-link-color: white;
+    --bs-link-hover-color: rgb(187, 187, 187);
+}
+
+#footerAcompanheNovidades a {
+    color: var(--bs-link-color);
+}
+
+#footerLinksUteis {
+    padding-left: 0.5rem;
+    border-left: 1px solid white;
+}
+
+#footerLinksUteis ul li a:hover{
+    color: var(--bs-link-hover-color);
+}
+
+
 .whiteText a {
     color: white !important;
 }
