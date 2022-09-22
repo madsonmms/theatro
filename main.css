@@ -70,17 +70,25 @@ a {
     border: none !important;
 }
 
-#noticias .card {
+#cardNoticias .card {
     min-height: 500px;
 }
 
-#noticias .card-footer {
+#cardNoticias .card-footer {
     background: none !important;
     border: none !important;
 }
 
-section #sectionNoticias {
-    background-color: #f0c6a1;
+#noticias {
+    background-color: #f0c6a181;
+}
+
+#noticias hr {
+    color: white;
+}
+
+#cardNoticias .card {
+    border: none;
 }
 
 #maisInformacoes .card {
