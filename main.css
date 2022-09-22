@@ -14,9 +14,27 @@ a {
     }
 }
 
+@media only screen and (min-width: 576px) {
+    #proximosEventos .card {
+        min-height: 350px !important;
+    }
+}
+
 .card {
-    min-height: 120px !important;
+    min-height: 350px !important;
     min-width: 250px !important;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: none !important;
+    border: none !important;
+}
+
+:root {
+    --bs-card-cap-padding: 0.5rem !important;
 }
 
 .whiteText a {
