@@ -26,36 +26,45 @@ a {
     }
 }
 
-.card {
-    min-height: 350px !important;
+#proximosEventos .card {
+    min-height: 400px !important;
     min-width: 250px !important;
 }
 
-.card-body img {
+#proximosEventos .card-body img {
     margin-right: 0.5rem;
 }
 
 /* - igual ao site anterior -
 
-.card-body span {
+#proximosEventos .card-body span {
     padding: 0.2rem 0.5rem;
     border: 1px solid rgba(0, 0, 0, .5);
     border-radius: 2rem;
 }
 
-:root .card-footer {
+:root #proximosEventos .card-footer {
     --bs-card-cap-padding-y: 0rem;
     --bs-card-cap-padding-x: 0rem;
 }
 
-:root .card-footer .btn {
+:root #proximosEventos .card-footer .btn {
     --bs-btn-border-radius: 0.375rem 0rem 0rem 0rem;
 }
 
 */
 
 
-.card-footer {
+#proximosEventos .card-footer {
+    background: none !important;
+    border: none !important;
+}
+
+#noticias .card {
+    min-height: 500px;
+}
+
+#noticias .card-footer {
     background: none !important;
     border: none !important;
 }
