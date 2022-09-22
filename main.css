@@ -24,6 +24,11 @@ a {
     #proximosEventos .card {
         min-height: 350px !important;
     }
+
+    #maisInformacoes .card {
+        min-height: 200px !important;
+        min-width: 400px !important;
+    }
 }
 
 #proximosEventos .card {
@@ -69,7 +74,22 @@ a {
     border: none !important;
 }
 
+section #sectionNoticias {
+    background-color: #f0c6a1;
+}
 
+#maisInformacoes .card {
+    min-height: 200px !important;
+    min-width: 380px !important;
+}
+
+#maisInformacoes .card-img-bottom {
+    min-height: 200px !important;
+}
+
+#maisInformacoes .card-img-bottom {
+    min-height: 200px !important;
+}
 
 .whiteText a {
     color: white !important;
