@@ -26,7 +26,6 @@ a {
     }
 
     #maisInformacoes .card {
-        min-height: 200px !important;
         min-width: 400px !important;
     }
 }
@@ -79,7 +78,6 @@ section #sectionNoticias {
 }
 
 #maisInformacoes .card {
-    min-height: 200px !important;
     min-width: 380px !important;
 }
 
