@@ -39,6 +39,12 @@ a {
     margin-right: 0.5rem;
 }
 
+#proximosEventos .form-select {
+    width: 60%;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2rem;
+}
+
 /* - igual ao site anterior -
 
 #proximosEventos .card-body span {
