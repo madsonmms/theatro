@@ -2,6 +2,10 @@ a {
     text-decoration: none !important;
 }
 
+#navegacao li .whiteText {
+    color: white !important;
+}
+
 #pesquisaEventos input {
     border-radius: 2rem;
 }

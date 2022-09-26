@@ -32,14 +32,10 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<div id="navegacao" class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
-							<form>
-								<button class="btn btn-sm btn-outline-secondary" type="button">
-									<a class="nav-link" href="#">Visite o TMSP</a>
-								</button>
-							</form>
+							<a class="nav-link btn btn-danger whiteText" href="#">Visite o TMSP</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">Programação</a>
@@ -83,16 +79,17 @@
 
 				<div id="pesquisaEventos" class="col-lg-4 mb-3 mb-sm-0 mx-lg-5">
 					<div class="input-group">
-						<input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+						<input class="form-control" type="search" placeholder="     Encontre um evento"
+							aria-label="Search" />
 						<span class="input-group-text">
 							<i class="fa-solid fa-magnifying-glass"></i>
 						</span>
 					</div>
 				</div>
-
 				<div id="calendario" class="col-lg-4">
-					<button class="btn btn-danger w-100" type="submit">
-						Calendário
+					<button class="btn btn-danger w-100" type="button">
+						<i class="fa-solid fa-calendar"></i>
+						Consulte o calendário
 					</button>
 				</div>
 
@@ -346,7 +343,7 @@
 			d-lg-flex flex-row
 			d-flex flex-row
 			mt-5 pt-5
-			my-lg-5 pt-lg-5">
+			mt-lg-5 pt-lg-5">
 
 				<h3>Notícias</h3>
 				<button class="btn btn-danger btn-sm ms-auto mt-lg-2 mt-sm-0">Ver mais</button>
