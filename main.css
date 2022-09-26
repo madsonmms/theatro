@@ -2,32 +2,21 @@ a {
     text-decoration: none !important;
 }
 
-@media only screen and (max-width: 576px) {
-
-    .carousel {
-        height: 30vh;
-    }
-
-    .carousel-item img {
-        object-fit: cover;
-        height: 30vh;
-    }
+#pesquisaEventos input {
+    border-radius: 2rem;
 }
 
-@media only screen and (min-width: 576px) {
+#pesquisaEventos span {
+    background-color: transparent !important;
+    border-radius: 2rem;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 12%;
+}
 
-    .sectionTitle {
-        padding-bottom: 0.5rem;
-        border-bottom: 1px solid rgba(0, 0, 0, .2);
-    }
-
-    #proximosEventos .card {
-        min-height: 350px !important;
-    }
-
-    #maisInformacoes .card {
-        min-width: 400px !important;
-    }
+#calendario button {
+    border-radius: 2rem;
 }
 
 #proximosEventos .card {
@@ -44,26 +33,6 @@ a {
     padding: 0.2rem 0.5rem;
     border-radius: 2rem;
 }
-
-/* - igual ao site anterior -
-
-#proximosEventos .card-body span {
-    padding: 0.2rem 0.5rem;
-    border: 1px solid rgba(0, 0, 0, .5);
-    border-radius: 2rem;
-}
-
-:root #proximosEventos .card-footer {
-    --bs-card-cap-padding-y: 0rem;
-    --bs-card-cap-padding-x: 0rem;
-}
-
-:root #proximosEventos .card-footer .btn {
-    --bs-btn-border-radius: 0.375rem 0rem 0rem 0rem;
-}
-
-*/
-
 
 #proximosEventos .card-footer {
     background: none !important;
@@ -117,7 +86,7 @@ a {
 }
 
 #footerAcompanheNovidades a {
-    color: var(--bs-link-color);
+    color: white !important;
 }
 
 #footerLinksUteis {
@@ -133,4 +102,33 @@ a {
 #realizacao img {
     width: 10rem;
     height: 10rem;
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    .carousel {
+        height: 30vh;
+    }
+
+    .carousel-item img {
+        object-fit: cover;
+        height: 30vh;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+
+    .sectionTitle {
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+    }
+
+    #proximosEventos .card {
+        min-height: 350px !important;
+    }
+
+    #maisInformacoes .card {
+        min-width: 400px !important;
+    }
 }

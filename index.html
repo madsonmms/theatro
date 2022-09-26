@@ -14,6 +14,9 @@
 	<link href="./bootstrap-5.2.1-dist/css/docs.css" rel="stylesheet">
 	<script src="./bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js"></script>
 
+	<!--Font Awesome-->
+	<script src="https://kit.fontawesome.com/97488755b8.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -78,18 +81,16 @@
 				uma vez que o bootstrap só compreende como sm telas com min-width de 576px
 				-->
 
-				<div class="col-lg-4 mb-3 mb-sm-0 mx-lg-5">
+				<div id="pesquisaEventos" class="col-lg-4 mb-3 mb-sm-0 mx-lg-5">
 					<div class="input-group">
 						<input class="form-control" type="search" placeholder="Search" aria-label="Search" />
-						<div class="input-group-append">
-							<button class="btn btn-primary">
-								<img src="./images/search.svg" alt="">
-							</button>
-						</div>
+						<span class="input-group-text">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</span>
 					</div>
 				</div>
 
-				<div class="col-lg-4">
+				<div id="calendario" class="col-lg-4">
 					<button class="btn btn-danger w-100" type="submit">
 						Calendário
 					</button>
