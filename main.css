@@ -7,6 +7,23 @@ a {
     margin-top: 1rem;
 }
 
+#navegacao .navbar-collapse {
+    margin-bottom: 1rem;
+}
+
+#navegacao {
+    background-color:#F8F8FF;
+}
+
+#navegacao .nav-item .dropdown-menu {
+    background-color:#F8F8FF;
+    border: none;
+    text-align: center;
+}
+
+#navegacao .nav-item .dropdown-menu a {
+    margin-top: 0.5rem;
+}
 
 #navegacao ul li .whiteText {
     color: white !important;
