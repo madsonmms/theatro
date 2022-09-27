@@ -2,7 +2,13 @@ a {
     text-decoration: none !important;
 }
 
-#navegacao li .whiteText {
+#navegacao .navbar-toggler {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+nav ul li .whiteText {
     color: white !important;
 }
 
