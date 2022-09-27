@@ -13,6 +13,7 @@ a {
 
 #navegacao {
     background-color:#F8F8FF;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
 #navegacao .nav-item .dropdown-menu {
