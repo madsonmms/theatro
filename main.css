@@ -1,5 +1,6 @@
 a {
     text-decoration: none !important;
+    color: black !important;
 }
 
 #navegacao ul li {
@@ -113,11 +114,11 @@ a {
     min-height: 200px !important;
 }
 
-:root a {
-    --bs-link-color: white;
+#footertAcompanheNovidades a {
+    color: white !important;
 }
 
-#footerAcompanheNovidades a {
+#footerEnderecos a {
     color: white !important;
 }
 
@@ -201,14 +202,22 @@ a {
     border-radius: 0.375rem;
 }
 
-#divisoria {
+.divisoria {
     background-color: #dc3545;
-    color: #fff;
     width: 100%;
 }
 
-#divisoria p {
+.divisoria p {
+    color: white !important;
     margin: 0;
+}
+
+.divisoria-branca {
+    background-color: #fff;
+}
+
+.divisoria-branca p {
+    color: #505050 !important;
 }
 
 #sobre img {
