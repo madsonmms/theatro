@@ -12,12 +12,12 @@ a {
 }
 
 #navegacao {
-    background-color:#F8F8FF;
+    background-color: #F8F8FF;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
 #navegacao .nav-item .dropdown-menu {
-    background-color:#F8F8FF;
+    background-color: #F8F8FF;
     border: none;
     text-align: center;
 }
@@ -163,4 +163,31 @@ a {
     #maisInformacoes .card {
         min-width: 400px !important;
     }
+
+    .cardImagem {
+        object-fit: cover;
+        border-radius: 0 0.375rem 0.375rem 0;
+        position: absolute;
+        height: 100%;
+        right: 0;
+        top: 0;
+        width: 35rem;
+    }
+
 }
+
+.cardImagem {
+    float: left;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/*
+#cardVisite {
+    background-image: url('./images/web-serie.png');
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+}
+*/

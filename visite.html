@@ -90,108 +90,91 @@
 
             <div class="col-lg-4">
                 <select name="selecione-visista" id="selecioneVisita" class="form-select my-5">
-                    <option selected>Selecione</option>
-                    <optgroup label="Para os adultos">
-                        <option>Visita em Portugês</option>
-                        <option>Visita em Inglês</option>
-                        <option>Visita para grupos de 20 a 50 pessoas</option>
-                    </optgroup>
-                    <optgroup label="Para crianças e suas famílias">
-                        <option>Pausa para o café</option>
-                        <option>Linha, forma e cor</option>
-                        <option>Encontro para desenhar</option>
-                    </optgroup>
+                    <option>Selecione</option>
+                    <option selected>Visita em Portugês</option>
+                    <option>Visita em Inglês</option>
+                    <option>Visita para grupos de 20 a 50 pessoas</option>
+                    <option>Pausa para o café</option>
+                    <option>Linha, forma e cor</option>
+                    <option>Encontro para desenhar</option>
                 </select>
             </div>
 
-
-            <div class="card d-lg-flex flex-column p-3 p-lg-5">
+            <div class="card 
+            d-lg-flex flex-column 
+            p-3 p-lg-5">
                 <div class="col-lg-6 flex-row mb-4">
                     <h4>Visita em Portugês</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac placerat tellus. Curabitur
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac placerat tellus.
+                        Curabitur
                         vel augue
-                        vel ex vehicula mattis. In hac habitasse platea dictumst. Maecenas eget lectus mauris. Maecenas
+                        vel ex vehicula mattis. In hac habitasse platea dictumst. Maecenas eget lectus mauris.
+                        Maecenas
                         nunc
                         turpis, aliquam at risus sit amet, euismod elementum diam. Sed vel dictum risus. Vivamus
                         fermentum
                         molestie lorem a semper.</p>
                 </div>
 
-
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="terca-tab" data-bs-toggle="tab"
-                            data-bs-target="#terca-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
-                            aria-selected="true">Terça</button>
-                    </li>
-                    <li class="nav-item dropdown" role="presentation">
-                        <button class="nav-link dropdown-toggle" id="qua-qui-sex-tab" data-bs-toggle="dropdown"
-                            type="button" role="tab" aria-controls="quarta-tab-pane" aria-selected="false">Qua - qui -
-                            sex</button>
-                        <ul class="dropdown-menu">
-                            <li><button class="dropdown-item" id="quarta-tab" data-bs-toggle="tab"
-                                    data-bs-target="#quarta-tab-pane" type="button" role="tab"
-                                    aria-controls="quarta-tab-pane" aria-selected="false">Quarta</button></li>
-                            <li><button class="dropdown-item" id="quinta-tab" data-bs-toggle="tab"
-                                    data-bs-target="#quinta-tab-pane" type="button" role="tab"
-                                    aria-controls="quinta-tab-pane" aria-selected="false">Quinta</button></li>
-                            <li><button class="dropdown-item" id="sexta-tab" data-bs-toggle="tab"
-                                    data-bs-target="#sexta-tab-pane" type="button" role="tab"
-                                    aria-controls="sexta-tab-pane" aria-selected="false">Sexta</button></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#sabado-tab-pane"
-                            type="button" role="tab" aria-controls="contact-tab-pane"
-                            aria-selected="false">Sábados</button>
-                    </li>
-                </ul>
-                <div class="tab-content my-3" id="myTabContent">
-                    <div class="tab-pane fade show active p-3" id="terca-tab-pane" role="tabpanel"
-                        aria-labelledby="home-tab" tabindex="0">
-                        <ul>
-                            <li>10h00</li>
-                            <li>10h00</li>
-                            <li>10h00</li>
-                            <li>10h00</li>
-                        </ul>
-                        <p>Reservas feitas às segundas-feiras a partir das 10h00</p>
+                <div class="col-lg-6">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="terca-tab" data-bs-toggle="tab"
+                                data-bs-target="#terca-tab-pane" type="button" role="tab" aria-controls="terca-tab-pane"
+                                aria-selected="true">Terça</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="quaQuiSex-tab" data-bs-toggle="tab"
+                                data-bs-target="#quaQuiSex-tab-pane" type="button" role="tab"
+                                aria-controls="quaQuiSex-tab-pane" aria-selected="false">Quarta/Quinta/Sexta</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="sabado-tab" data-bs-toggle="tab"
+                                data-bs-target="#sabado-tab-pane" type="button" role="tab"
+                                aria-controls="sabado-tab-pane" aria-selected="false">Sábado</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content my-3" id="myTabContent">
+                        <div class="tab-pane fade show active p-3" id="terca-tab-pane" role="tabpanel"
+                            aria-labelledby="home-tab" tabindex="0">
+                            <ul>
+                                <li>10h00</li>
+                                <li>11h00</li>
+                                <li>12h00</li>
+                                <li>13h00</li>
+                            </ul>
+                            <p>Reservas feitas às segundas-feiras a partir das 10h00</p>
+                            <img class="cardImagem" src="./images/web-serie.png">
+                            </img>
+                        </div>
+                        <div class="tab-pane fade p-3" id="quaQuiSex-tab-pane" role="tabpanel"
+                            aria-labelledby="quarta-tab" tabindex="0">
+                            <ul>
+                                <li>10h00</li>
+                                <li>11h00</li>
+                                <li>12h00</li>
+                                <li>13h00</li>
+                            </ul>
+                            <p>Reservas feitas às terças-feitas a partir das 10h00</p>
+                            <img class="cardImagem" src="./images/escadaria.png">
+                            </img>
+                        </div>
+                        <div class="tab-pane fade p-3" id="sabado-tab-pane" role="tabpanel" aria-labelledby="quinta-tab"
+                            tabindex="0">
+                            <ul>
+                                <li>10h00</li>
+                                <li>11h00</li>
+                                <li>12h00</li>
+                                <li>13h00</li>
+                            </ul>
+                            <p>Reservas feitas às sextas-feiras a partir das 10h00</p>
+                            <img class="cardImagem" src="./images/cadeiras.png">
+                            </img>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="quarta-tab-pane" role="tabpanel" aria-labelledby="quarta-tab"
-                        tabindex="0">...</div>
-                    <div class="tab-pane fade" id="quinta-tab-pane" role="tabpanel" aria-labelledby="quinta-tab"
-                        tabindex="0">...</div>
-                    <div class="tab-pane fade" id="sexta-tab-pane" role="tabpanel" aria-labelledby="sexta-tab"
-                        tabindex="0">...</div>
-                    <div class="tab-pane fade" id="sabado-tab-pane" role="tabpanel" aria-labelledby="sabado-tab"
-                        tabindex="0">...</div>
                 </div>
-
-
-
-                <!--
-
-                <ul class="nav nav-tabs col-lg-6">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Active</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                            aria-expanded="false">Quarta</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Quinta</a></li>
-                            <li><a class="dropdown-item" href="#">Sexta</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sábados</a>
-                    </li>
-                </ul>
-
-                -->
-
-
             </div>
+
         </div>
 
     </section>
