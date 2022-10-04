@@ -323,7 +323,7 @@
             <h3>Galeria</h3>
         </div>
 
-        <div class="container-lg container-fluid py-2">
+        <div class="container-fluid py-2">
 
             <div id="galeria" class="
 				row-lg
@@ -360,11 +360,19 @@
             </div>
 
             <div class="modal fade" id="lightbox" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog" role="document">
+                <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-body">
-                            <button class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                            <div class="close">
+                                <i class="fa-solid fa-circle-xmark fa-1x btn-modal" data-bs-dismiss="modal"
+                                    aria-label="Close"></i>
+                            </div>
+
+                            <!--
+                                <button class="btn-close btn-modal" data-bs-dismiss="modal" aria-label="Close">
                             </button>
+                            -->
+
                             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#carouselExampleIndicators"

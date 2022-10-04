@@ -233,6 +233,21 @@ a {
     background-color: #2f2f2f;
 }
 
+.modal-body {
+    padding: 0 !important;
+}
+
+.btn-modal {
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 2rem !important;
+    margin-right: 0.5rem;
+    /* width: 100%; */
+    z-index: 99999999;
+    color: #fff !important;
+}
+
 /*
 #cardVisite {
     background-image: url('./images/web-serie.png');
