@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden !important;
+}
+
 a {
     text-decoration: none !important;
     color: black !important;
@@ -155,59 +159,6 @@ a {
     height: 10rem;
 }
 
-
-@media only screen and (max-width: 576px) {
-
-    .carousel {
-        height: 30vh;
-    }
-
-    .carousel-item img {
-        object-fit: cover;
-        height: 30vh;
-    }
-}
-
-@media only screen and (min-width: 576px) {
-
-    .sectionTitle {
-        padding-bottom: 0.5rem;
-        border-bottom: 1px solid rgba(0, 0, 0, .2);
-    }
-
-    #proximosEventos .card {
-        min-height: 350px !important;
-    }
-
-    #maisInformacoes .card {
-        min-width: 400px !important;
-    }
-
-    .cardImagem {
-        object-fit: cover;
-        border-radius: 0 0.375rem 0.375rem 0;
-        position: absolute;
-        height: 100%;
-        right: 0;
-        top: 0;
-        width: 35rem;
-    }
-
-    #sobre img {
-        height: 28rem;
-        width: 28rem;
-    }
-
-    /* Inverte o texto e imagem no sobre */
-    #sobre #diasDeHoje {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: left;
-    }
-
-
-}
-
 .cardImagem {
     float: left;
     max-height: 100%;
@@ -264,6 +215,70 @@ a {
     /* width: 100%; */
     z-index: 99999999;
     color: #fff !important;
+}
+
+#sobre {
+    overflow-x: hidden;
+}
+
+#pracaDasArtes {
+    overflow-x: hidden;
+}
+
+#barDosArcos {
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .carousel {
+        height: 30vh;
+    }
+
+    .carousel-item img {
+        object-fit: cover;
+        height: 30vh;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+
+    .sectionTitle {
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+    }
+
+    #proximosEventos .card {
+        min-height: 350px !important;
+    }
+
+    #maisInformacoes .card {
+        min-width: 400px !important;
+    }
+
+    .cardImagem {
+        object-fit: cover;
+        border-radius: 0 0.375rem 0.375rem 0;
+        position: absolute;
+        height: 100%;
+        right: 0;
+        top: 0;
+        width: 35rem;
+    }
+
+    #sobre img {
+        height: 28rem;
+        width: 28rem;
+    }
+
+    /* Inverte o texto e imagem no sobre */
+    #sobre #diasDeHoje {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: left;
+    }
+
+
 }
 
 /*
