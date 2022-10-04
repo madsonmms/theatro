@@ -3,6 +3,10 @@ a {
     color: black !important;
 }
 
+.logo img {
+    max-height: 5rem;
+}
+
 #navegacao ul li {
     text-align: center;
     margin-top: 1rem;
