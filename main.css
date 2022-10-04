@@ -3,8 +3,20 @@ a {
     color: black !important;
 }
 
+.navbar {
+    background-color: #ecc8925e !important;
+}
+
+.logo a {
+    margin-right: 10rem;
+}
+
 .logo img {
-    max-height: 5rem;
+    max-height: 4rem;
+}
+
+.btn-danger { 
+    color: #fff !important;
 }
 
 #navegacao ul li {
@@ -77,6 +89,7 @@ a {
 }
 
 #cardNoticias .card {
+    border: none;
     min-height: 500px;
     height: 100%;
 }
@@ -90,11 +103,7 @@ a {
 }
 
 #noticias {
-    background-color: #f0c6a181;
-}
-
-#cardNoticias .card {
-    border: none;
+    background-color: #ecc8925e ;
 }
 
 #cardNoticias .card .card-text {
@@ -104,6 +113,11 @@ a {
 #cardNoticias .card .card-footer {
     background-color: #dc3545;
     border: none;
+    color: #fff !important;
+}
+
+#cardNoticias .card .card-footer a {
+    color: #fff !important;
 }
 
 #maisInformacoes .card {
