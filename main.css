@@ -38,10 +38,9 @@ a.nav-link:hover {
 	color: #e4b57f !important;
 }
 
-/* .nav-item li a:not(:first-child):hover {
-	color: #e4b57f;
-	transition: background-color 0.4s linear;
-} */
+a.nav-link:focus {
+	color: #e4b57f !important;
+}
 
 .btn-danger {
 	color: #fff !important;
