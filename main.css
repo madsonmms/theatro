@@ -1,284 +1,302 @@
 body {
-    overflow-x: hidden !important;
+	overflow-x: hidden !important;
 }
 
 a {
-    text-decoration: none !important;
-    color: black !important;
+	text-decoration: none !important;
+	color: black !important;
 }
 
 .navbar {
-    background-color: #ecc8925e !important;
+	background-color: #ffffff5e !important;
 }
 
-.logo a {
-    margin-right: 10rem;
+/* separador de navbar */
+
+@media only screen and (min-width: 992px) {
+	.navbar .navbar-nav .nav-item .nav-link {
+		padding: 0 0.5em;
+	}
+	.navbar .navbar-nav .nav-item {
+		padding-right: 1.2rem;
+		padding-left: 1.2rem;
+	}
+
+	.navbar .navbar-nav .nav-item:not(:last-child) {
+		border-right: 1px solid #000000;
+	}
 }
+
+/* fim */
 
 .logo img {
-    max-height: 4rem;
+	max-height: 4rem;
+	margin-left: 2rem;
 }
 
-.btn-danger { 
-    color: #fff !important;
+a.nav-link:hover {
+	color: #e4b57f !important;
 }
 
-#navegacao ul li {
-    text-align: center;
-    margin-top: 1rem;
-}
+/* .nav-item li a:not(:first-child):hover {
+	color: #e4b57f;
+	transition: background-color 0.4s linear;
+} */
 
-#navegacao .navbar-collapse {
-    margin-bottom: 1rem;
+.btn-danger {
+	color: #fff !important;
 }
 
 #navegacao {
-    background-color: #F8F8FF;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
+	background-color: #f8f8ff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#navegacao li {
+	text-align: center;
+	height: 3rem;
+	line-height: 3rem;
 }
 
 #navegacao .nav-item .dropdown-menu {
-    background-color: #F8F8FF;
-    border: none;
-    text-align: center;
+	background-color: #f8f8ff;
+	border: none;
+	text-align: center;
 }
 
 #navegacao .nav-item .dropdown-menu a {
-    margin-top: 0.5rem;
+	margin-top: 0.5rem;
 }
 
 #navegacao ul li .whiteText {
-    color: white !important;
+	color: white !important;
+	height: 3rem;
+	line-height: 3rem;
 }
 
 #pesquisaEventos input {
-    border-radius: 2rem;
+	border-radius: 2rem;
 }
 
 #navecacao .whiteText {
-    color: white !important;
+	color: white !important;
 }
 
 #pesquisaEventos span {
-    background-color: transparent !important;
-    border-radius: 2rem;
-    border: none;
-    position: absolute;
-    right: 0;
-    top: 12%;
+	background-color: transparent !important;
+	border-radius: 2rem;
+	border: none;
+	position: absolute;
+	right: 0;
+	top: 12%;
 }
 
 #calendario button {
-    border-radius: 2rem;
+	border-radius: 2rem;
 }
 
 #proximosEventos .card {
-    min-height: 400px !important;
-    min-width: 250px !important;
+	min-height: 400px !important;
+	min-width: 250px !important;
 }
 
 #proximosEventos .card-body img {
-    margin-right: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 #proximosEventos .form-select {
-    width: 60%;
-    padding: 0.2rem 0.5rem;
-    border-radius: 2rem;
+	width: 60%;
+	padding: 0.2rem 0.5rem;
+	border-radius: 2rem;
 }
 
 #proximosEventos .card-footer {
-    background: none !important;
-    border: none !important;
+	background: none !important;
+	border: none !important;
 }
 
 #cardNoticias .card {
-    border: none;
-    min-height: 500px;
-    height: 100%;
+	border: none;
+	min-height: 500px;
+	height: 100%;
 }
 
 #cardNoticias .card-footer {
-    /*
+	/*
     background: none !important;
     border: none !important;
     */
-    display: block;
+	display: block;
 }
 
 #noticias {
-    background-color: #ecc8925e ;
+	background-color: #ecc8925e;
 }
 
 #cardNoticias .card .card-text {
-    text-align: justify;
+	text-align: justify;
 }
 
 #cardNoticias .card .card-footer {
-    background-color: #dc3545;
-    border: none;
-    color: #fff !important;
+	background-color: #dc3545;
+	border: none;
+	color: #fff !important;
 }
 
 #cardNoticias .card .card-footer a {
-    color: #fff !important;
+	color: #fff !important;
 }
 
 #maisInformacoes .card {
-    min-width: 380px !important;
+	min-width: 380px !important;
 }
 
 #maisInformacoes .card-img-bottom {
-    min-height: 200px !important;
+	min-height: 200px !important;
 }
 
 #maisInformacoes .card-img-bottom {
-    min-height: 200px !important;
+	min-height: 200px !important;
 }
 
 #footertAcompanheNovidades a {
-    color: white !important;
+	color: white !important;
 }
 
 #footerEnderecos a {
-    color: white !important;
+	color: white !important;
 }
 
 #footerLinksUteis {
-    padding-left: 0.5rem;
-    border-left: 1px solid white;
+	padding-left: 0.5rem;
+	border-left: 1px solid white;
 }
 
-
 .whiteText a {
-    color: white !important;
+	color: white !important;
 }
 
 #realizacao img {
-    width: 10rem;
-    height: 10rem;
+	width: 10rem;
+	height: 10rem;
 }
 
 .cardImagem {
-    float: left;
-    max-height: 100%;
-    max-width: 100%;
+	float: left;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 #naoPermitido {
-    background-color: #dc3545;
-    color: #fff;
-    border-radius: 0.375rem;
+	background-color: #dc3545;
+	color: #fff;
+	border-radius: 0.375rem;
 }
 
 .divisoria {
-    background-color: #dc3545;
-    width: 100%;
+	background-color: #dc3545;
+	width: 100%;
 }
 
 .divisoria p {
-    color: white !important;
-    margin: 0;
+	color: white !important;
+	margin: 0;
 }
 
 .divisoria-branca {
-    background-color: #fff;
+	background-color: #fff;
 }
 
 .divisoria-branca p {
-    color: #505050 !important;
+	color: #505050 !important;
 }
 
 #sobre img {
-    max-height: 100%;
-    max-width: 100%;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .whiteText {
-    color: #fff;
+	color: #fff;
 }
 
 .backgroundEscuro {
-    background-color: #2f2f2f;
+	background-color: #2f2f2f;
 }
 
 .modal-body {
-    padding: 0 !important;
+	padding: 0 !important;
 }
 
 .btn-modal {
-    position: absolute;
-    right: 0;
-    top: 0;
-    line-height: 2rem !important;
-    margin-right: 0.5rem;
-    /* width: 100%; */
-    z-index: 99999999;
-    color: #fff !important;
+	position: absolute;
+	right: 0;
+	top: 0;
+	line-height: 2rem !important;
+	margin-right: 0.5rem;
+	/* width: 100%; */
+	z-index: 99999999;
+	color: #fff !important;
 }
 
 #sobre {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 #pracaDasArtes {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 #barDosArcos {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 @media only screen and (max-width: 576px) {
+	.carousel {
+		height: 30vh;
+	}
 
-    .carousel {
-        height: 30vh;
-    }
-
-    .carousel-item img {
-        object-fit: cover;
-        height: 30vh;
-    }
+	.carousel-item img {
+		object-fit: cover;
+		height: 30vh;
+	}
 }
 
 @media only screen and (min-width: 576px) {
+	.sectionTitle {
+		padding-bottom: 0.5rem;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	}
 
-    .sectionTitle {
-        padding-bottom: 0.5rem;
-        border-bottom: 1px solid rgba(0, 0, 0, .2);
-    }
+	#proximosEventos .card {
+		min-height: 350px !important;
+	}
 
-    #proximosEventos .card {
-        min-height: 350px !important;
-    }
+	#maisInformacoes .card {
+		min-width: 400px !important;
+	}
 
-    #maisInformacoes .card {
-        min-width: 400px !important;
-    }
+	.cardImagem {
+		object-fit: cover;
+		border-radius: 0 0.375rem 0.375rem 0;
+		position: absolute;
+		height: 100%;
+		right: 0;
+		top: 0;
+		width: 35rem;
+	}
 
-    .cardImagem {
-        object-fit: cover;
-        border-radius: 0 0.375rem 0.375rem 0;
-        position: absolute;
-        height: 100%;
-        right: 0;
-        top: 0;
-        width: 35rem;
-    }
+	#sobre img {
+		height: 28rem;
+		width: 28rem;
+	}
 
-    #sobre img {
-        height: 28rem;
-        width: 28rem;
-    }
-
-    /* Inverte o texto e imagem no sobre */
-    #sobre #diasDeHoje {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: left;
-    }
-
-
+	/* Inverte o texto e imagem no sobre */
+	#sobre #diasDeHoje {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: left;
+	}
 }
 
 /*
