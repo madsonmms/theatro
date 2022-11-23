@@ -257,17 +257,25 @@ a.nav-link:focus {
 }
 
 @media only screen and (max-width: 576px) {
-	.carousel {
+	.banner {
 		height: 30vh;
 	}
 
 	.carousel-item img {
-		object-fit: cover;
+		object-fit: contain;
 		height: 30vh;
 	}
 }
 
 @media only screen and (min-width: 576px) {
+	.banner {
+		height: 60vh;
+	}
+
+	.banner .carousel-item {
+		height: 60vh;
+	}
+
 	.sectionTitle {
 		padding-bottom: 0.5rem;
 		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -303,7 +311,6 @@ a.nav-link:focus {
 		justify-content: left;
 	}
 }
-
 /*
 #cardVisite {
     background-image: url('./images/web-serie.png');
